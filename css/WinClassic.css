@@ -222,7 +222,7 @@ body *::-webkit-scrollbar {
 	  --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4);
 	  --channeltextarea-background: #5B5B5B;
 	  --activity-card-background: #fff;
-	  --deprecated-panel-background: #ebedef;
+	  --deprecated-panel-background: #5B5B5B;
 	  --deprecated-card-bg: #f8f9f9;
 	  --deprecated-card-editable-bg: #C0C0C0;
 	  --deprecated-store-bg: #f8f9f9;
@@ -245,9 +245,9 @@ body *::-webkit-scrollbar {
 	  --interactive-hover: #fff;
 	  --interactive-active: #060607;
 	  --interactive-muted: #a88985;
-	  --background-primary: #fff;
+	  --background-primary: #5B5B5B;
 	  --background-secondary: #C0C0C0;
-	  --background-tertiary: #fff;
+	  --background-tertiary: #5B5B5B;
 	  --background-accent: #0a246a;
 	  --background-floating: #C0C0C0;
 	  --background-modifier-hover: #0a246a;
@@ -260,7 +260,7 @@ body *::-webkit-scrollbar {
 	  --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4);
 	  --channeltextarea-background: #848484;
 	  --activity-card-background: #5B5B5B;
-	  --deprecated-panel-background: #ebedef;
+	  --deprecated-panel-background: #5B5B5B;
 	  --deprecated-card-bg: #f8f9f9;
 	  --deprecated-card-editable-bg: #C0C0C0;
 	  --deprecated-store-bg: #f8f9f9;
