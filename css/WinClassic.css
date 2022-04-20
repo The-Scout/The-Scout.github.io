@@ -207,9 +207,9 @@ body *::-webkit-scrollbar {
 	  --interactive-hover: #fff;
 	  --interactive-active: #060607;
 	  --interactive-muted: #a88985;
-	  --background-primary: #fff;
+	  --background-primary: #000;
 	  --background-secondary: #C0C0C0;
-	  --background-tertiary: #fff;
+	  --background-tertiary: #000;
 	  --background-accent: #0a246a;
 	  --background-floating: #C0C0C0;
 	  --background-modifier-hover: #0a246a;
