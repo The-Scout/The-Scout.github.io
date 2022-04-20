@@ -220,7 +220,7 @@ body *::-webkit-scrollbar {
 	  --elevation-high: 0 8px 16px rgba(0,0,0,0.16);
 	  --logo-primary: #7289da;
 	  --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4);
-	  --channeltextarea-background: #848484;
+	  --channeltextarea-background: #5B5B5B;
 	  --activity-card-background: #fff;
 	  --deprecated-panel-background: #ebedef;
 	  --deprecated-card-bg: #f8f9f9;
@@ -259,7 +259,7 @@ body *::-webkit-scrollbar {
 	  --logo-primary: #7289da;
 	  --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4);
 	  --channeltextarea-background: #848484;
-	  --activity-card-background: #fff;
+	  --activity-card-background: #5B5B5B;
 	  --deprecated-panel-background: #ebedef;
 	  --deprecated-card-bg: #f8f9f9;
 	  --deprecated-card-editable-bg: #C0C0C0;
