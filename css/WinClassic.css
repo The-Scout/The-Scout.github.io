@@ -250,27 +250,27 @@ body *::-webkit-scrollbar {
 	  --background-tertiary: #000;
 	  --background-accent: #000;
 	  --background-floating: #000;
-	  --background-modifier-hover: #0a246a;
-	  --background-modifier-active: #0a246a;
-	  --background-modifier-selected: #0a246a;
+	  --background-modifier-hover: #000;
+	  --background-modifier-active: #000;
+	  --background-modifier-selected: #000;
 	  --background-modifier-accent: rgba(6,6,7,0.08);
 	  --elevation-low: 0 1px 0 rgba(6,6,7,0.1),0 1.5px 0 rgba(6,6,7,0.025),0 2px 0 rgba(6,6,7,0.025);
 	  --elevation-high: 0 8px 16px rgba(0,0,0,0.16);
 	  --logo-primary: #7289da;
 	  --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4);
-	  --channeltextarea-background: #ebedef;
-	  --activity-card-background: #fff;
+	  --channeltextarea-background: #000;
+	  --activity-card-background: #000;
 	  --deprecated-panel-background: #ebedef;
-	  --deprecated-card-bg: #f8f9f9;
-	  --deprecated-card-editable-bg: #C0C0C0;
-	  --deprecated-store-bg: #f8f9f9;
+	  --deprecated-card-bg: #000;
+	  --deprecated-card-editable-bg: #000;
+	  --deprecated-store-bg: #000;
 	  --deprecated-quickswitcher-input-background: #fff;
 	  --deprecated-quickswitcher-input-placeholder: rgba(79,84,92,0.3);
 	  --deprecated-text-input-bg: rgba(79,84,92,0.02);
 	  --deprecated-text-input-border: rgba(79,84,92,0.3);
-	  --deprecated-text-input-border-hover: #b9bbbe;
-	  --deprecated-text-input-border-disabled: #dcddde;
-	  --deprecated-text-input-prefix: #b9bbbe;
+	  --deprecated-text-input-border-hover: #000;
+	  --deprecated-text-input-border-disabled: #000;
+	  --deprecated-text-input-prefix: #000;
   }
   /* temp(?) fix for the Save To plugin when you right-click images/users */
   
