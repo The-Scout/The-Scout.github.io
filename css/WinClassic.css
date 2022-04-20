@@ -211,7 +211,7 @@ body *::-webkit-scrollbar {
 	  --background-secondary: #848484;
 	  --background-tertiary: #848484;
 	  --background-accent: #0a246a;
-	  --background-floating: #C0C0C0;
+	  --background-floating: #848484;
 	  --background-modifier-hover: #0a246a;
 	  --background-modifier-active: #0a246a;
 	  --background-modifier-selected: #0a246a;
