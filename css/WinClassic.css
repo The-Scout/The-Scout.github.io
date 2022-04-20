@@ -213,7 +213,7 @@ body *::-webkit-scrollbar {
 	  --background-accent: #0a246a;
 	  --background-floating: #C0C0C0;
 	  --background-modifier-hover: #0a246a;
-	  --background-modifier-active: #0a246a;
+	  --background-modifier-active: #12379c;
 	  --background-modifier-selected: #0a246a;
 	  --background-modifier-accent: rgba(6,6,7,0.08);
 	  --elevation-low: 0 1px 0 rgba(6,6,7,0.1),0 1.5px 0 rgba(6,6,7,0.025),0 2px 0 rgba(6,6,7,0.025);
@@ -230,9 +230,9 @@ body *::-webkit-scrollbar {
 	  --deprecated-quickswitcher-input-placeholder: rgba(79,84,92,0.3);
 	  --deprecated-text-input-bg: rgba(79,84,92,0.02);
 	  --deprecated-text-input-border: rgba(79,84,92,0.3);
-	  --deprecated-text-input-border-hover: #b9bbbe;
-	  --deprecated-text-input-border-disabled: #dcddde;
-	  --deprecated-text-input-prefix: #b9bbbe;
+	  --deprecated-text-input-border-hover: #000;
+	  --deprecated-text-input-border-disabled: #000;
+	  --deprecated-text-input-prefix: #000;
   }
     .theme-dark {
 	  --header-primary: #000;
@@ -251,7 +251,7 @@ body *::-webkit-scrollbar {
 	  --background-accent: #0a246a;
 	  --background-floating: #C0C0C0;
 	  --background-modifier-hover: #0a246a;
-	  --background-modifier-active: #0a246a;
+	  --background-modifier-active: #12379c;
 	  --background-modifier-selected: #0a246a;
 	  --background-modifier-accent: rgba(6,6,7,0.08);
 	  --elevation-low: 0 1px 0 rgba(6,6,7,0.1),0 1.5px 0 rgba(6,6,7,0.025),0 2px 0 rgba(6,6,7,0.025);
@@ -268,9 +268,9 @@ body *::-webkit-scrollbar {
 	  --deprecated-quickswitcher-input-placeholder: rgba(79,84,92,0.3);
 	  --deprecated-text-input-bg: rgba(79,84,92,0.02);
 	  --deprecated-text-input-border: rgba(79,84,92,0.3);
-	  --deprecated-text-input-border-hover: #b9bbbe;
-	  --deprecated-text-input-border-disabled: #dcddde;
-	  --deprecated-text-input-prefix: #b9bbbe;
+	  --deprecated-text-input-border-hover: #000;
+	  --deprecated-text-input-border-disabled: #000;
+	  --deprecated-text-input-prefix: #000;
   }
   
   /* temp(?) fix for the Save To plugin when you right-click images/users */
