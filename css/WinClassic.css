@@ -207,9 +207,9 @@ body *::-webkit-scrollbar {
 	  --interactive-hover: #fff;
 	  --interactive-active: #060607;
 	  --interactive-muted: #a88985;
-	  --background-primary: #fff;
+	  --background-primary: #848484;
 	  --background-secondary: #C0C0C0;
-	  --background-tertiary: #fff;
+	  --background-tertiary: #848484;
 	  --background-accent: #0a246a;
 	  --background-floating: #C0C0C0;
 	  --background-modifier-hover: #0a246a;
@@ -246,9 +246,9 @@ body *::-webkit-scrollbar {
 	  --interactive-active: #060607;
 	  --interactive-muted: #a88985;
 	  --background-primary: #fff;
-	  --background-secondary: #C0C0C0;
+	  --background-secondary: #848484;
 	  --background-tertiary: #fff;
-	  --background-accent: #0a246a;
+	  --background-accent: #848484;
 	  --background-floating: #C0C0C0;
 	  --background-modifier-hover: #0a246a;
 	  --background-modifier-active: #0a246a;
