@@ -200,7 +200,7 @@ body *::-webkit-scrollbar {
 	  --header-primary: #000;
 	  --header-secondary: #000;
 	  --text-normal: #000;
-	  --text-muted: #747f8d;
+	  --text-muted: #000;
 	  --text-link: #0067e0;
 	  --channels-default: #000;
 	  --interactive-normal: #000;
@@ -238,7 +238,7 @@ body *::-webkit-scrollbar {
 	  --header-primary: #000;
 	  --header-secondary: #000;
 	  --text-normal: #000;
-	  --text-muted: #747f8d;
+	  --text-muted: #000;
 	  --text-link: #0067e0;
 	  --channels-default: #000;
 	  --interactive-normal: #000;
