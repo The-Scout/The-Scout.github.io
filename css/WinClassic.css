@@ -1233,7 +1233,7 @@ body *::-webkit-scrollbar {
     border-left: 1px solid #fff;
     height: 14px;
     top: -16px;
-    padding: 0px 15px;
+    padding: 1px 15px;
     left: .1px;
 }
 
