@@ -772,9 +772,9 @@ body *::-webkit-scrollbar {
   /* Guilds bar */
 .scroller-3X7KbA {
 	  background-color: var(--background-modifier-selected);
-  	border-bottom: 1px solid #848484;
+	  border-bottom: 1px solid #848484;
 	  border-right: 1px solid #848484;
-	  border-top: 1px solid #fff;
+	  border-top: px solid #fff;
 	  border-left: 1px solid #fff
   }
   
@@ -782,10 +782,10 @@ body *::-webkit-scrollbar {
 	  color: #000;
 	  background: #C0C0C0;
 	  background-color: #C0C0C0;
-	  border-bottom: 1px solid #848484;
-	  border-right: 1px solid #848484;
-	  border-top: 1px solid #fff;
-	  border-left: 1px solid #fff;
+	  border-bottom: 0px solid #848484;
+	  border-right: 0px solid #848484;
+	  border-top: 0px solid #fff;
+	  border-left: 0px solid #fff !important;
   }
   
   .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
@@ -821,7 +821,7 @@ body *::-webkit-scrollbar {
 	  color: #000;
 	  margin: 0;
 	  border-bottom:1px solid #848484;
-	  border-top:1px solid #fff;
+	  border-top:0px solid #fff;
   }
   .item-2LIpTv {
 	 color: #000;
@@ -990,7 +990,7 @@ body *::-webkit-scrollbar {
   
   /* Guilds Bar */ 
   .wrapper-1Rf91z {
-	  border-bottom: 1px solid #848484;
+	  border-bottom: px solid #848484;
 	  border-right: 1px solid #848484;
 	  border-top: 1px solid #fff;
 	  border-left: 1px solid #fff;
