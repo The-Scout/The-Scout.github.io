@@ -322,7 +322,12 @@ body *::-webkit-scrollbar {
 	  top:0px!important;
 	  max-height: 200px;
   }
-  
+  .theme-light .contextMenu-HLZMGh:not(.da-contextMenu),
+  .theme-light .contextMenu-HLZMGh:not(.da-contextMenu) {
+	  left:0!important;
+	  top:0px!important;
+	  max-height: 200px;
+  }
   
 
   /* fuck it scrollbars are broken i cant figure this shit out
@@ -370,6 +375,14 @@ body *::-webkit-scrollbar {
 	  border-left:1px solid #fff;
 	  width: 16px;
   }
+   .theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+	  background-color: #d7d2cf !important;
+	  border-bottom:1px solid #848484;
+	  border-right:1px solid #848484;
+	  border-top:1px solid #fff;
+	  border-left:1px solid #fff;
+	  width: 16px;
+  }
   
   .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track {
 	  border:6px!important;
@@ -381,6 +394,18 @@ body *::-webkit-scrollbar {
   }
   
   .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track:active {
+	  background-color: #2a2a2a!important;
+  }
+  .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track {
+	  border:6px!important;
+	  border-radius: 0px!important;
+  }
+  
+  .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track:hover {
+	  background-color: #111111!important;
+  }
+  
+  .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track:active {
 	  background-color: #2a2a2a!important;
   }
 
@@ -422,6 +447,11 @@ body *::-webkit-scrollbar {
   
   .theme-dark #bd-settings-sidebar .ui-tab-bar-header,
   .theme-dark #bd-settings-sidebar .ui-tab-bar-item {
+	  color: #000;
+  }
+  
+  .theme-light #bd-settings-sidebar .ui-tab-bar-header,
+  .theme-light #bd-settings-sidebar .ui-tab-bar-item {
 	  color: #000;
   }
   
@@ -468,6 +498,21 @@ body *::-webkit-scrollbar {
 	  background-color: #fff;
   }
   
+  .theme-light .bda-slist li,
+  .theme-light .bda-slist .bda-description,
+  .theme-light .bda-slist .bda-header {
+	  background-color: var(--background-secondary);
+	  color: #000;
+	  margin: 0;
+	  border-bottom:1px solid #848484;
+	  border-top:1px solid #fff;
+  }
+  
+  .theme-light input {
+	  background: #fff;
+	  background-color: #fff;
+  }
+  
   .channelTextArea-1FufC0 {
 	  padding-top: 12px;
 	  margin-bottom: 13px;
@@ -482,11 +527,21 @@ body *::-webkit-scrollbar {
 	  height: auto;
 	  min-height: 25px;
   }
+  .theme-light .attachButton-1UjEWA {
+	  height: auto;
+	  min-height: 25px;
+  }
   .button-2vd_v_,
   .theme-dark .attachButton-1UjEWA {
 	  padding: 0;
   }
   .theme-dark .attachButton-1UjEWA:hover {
+	  background: #0a246a;
+  }
+  .theme-light .attachButton-1UjEWA {
+	  padding: 0;
+  }
+  .theme-light .attachButton-1UjEWA:hover {
 	  background: #0a246a;
   }
   
@@ -529,8 +584,15 @@ body *::-webkit-scrollbar {
 	  border-top:1px solid #404040;
 	  border-left:1px solid #404040;
   }
+  .theme-light input {
+	  border-bottom:1px solid #fff;
+	  border-right:1px solid #fff;
+	  border-top:1px solid #404040;
+	  border-left:1px solid #404040;
+  }
   
   .theme-dark .app-2CXKsg button,
+  .theme-light .app-2CXKsg button,
   .iconWrapper-2awDjA,
   .cardPrimary-3qRT__,
   .cardPrimaryEditable-2mz_3i,
@@ -606,6 +668,13 @@ body *::-webkit-scrollbar {
 	background-color: #C0C0C0;
 	background: #C0C0C0;
   }
+  .theme-light .form-3gdLxP:before {
+	  border-right:1px solid #3f3c5d;
+	  border-top:1px solid #000;
+	  border-left:1px solid #dccec6;
+	background-color: #C0C0C0;
+	background: #C0C0C0;
+  }
   .scrollableContainer-15eg7h {
 	  overflow-x: hidden;
 	  overflow-y: hidden;
@@ -618,6 +687,10 @@ body *::-webkit-scrollbar {
   
   /* Channel Info */
   .theme-dark .children-3xh0VB:after {
+	  background: transparent;
+  }
+  
+  .theme-light .children-3xh0VB:after {
 	  background: transparent;
   }
   
@@ -900,6 +973,9 @@ body *::-webkit-scrollbar {
 .theme-dark .checkbox-f1HnKB {
     display: none;
 }
+.theme-light .checkbox-f1HnKB {
+    display: none;
+}
   
   /* Headers */
   .header-1w9Q93, .header-1zd7se {
@@ -931,6 +1007,18 @@ body *::-webkit-scrollbar {
     display: none;
 }
 .theme-dark .uploadModal-2ie9O_ {
+	 color: #000;
+	  background: #C0C0C0;
+	  background-color: #C0C0C0;
+	  border-bottom: 1px solid #848484;
+	  border-right: 1px solid #848484;
+	  border-top: 1px solid #fff;
+	  border-left: 1px solid #fff;
+}
+.theme-light .checkbox-f1HnKB {
+    display: none;
+}
+.theme-light .uploadModal-2ie9O_ {
 	 color: #000;
 	  background: #C0C0C0;
 	  background-color: #C0C0C0;
@@ -973,6 +1061,15 @@ body *::-webkit-scrollbar {
 		background-color: #848484;
   }
   .theme-dark .closeButton-PCZcma {
+	 color: #000;
+	  background: #C0C0C0;
+	  background-color: #C0C0C0;
+	  border-bottom: 1px solid #848484;
+	  border-right: 1px solid #848484;
+	  border-top: 1px solid #fff;
+	  border-left: 1px solid #fff;
+  }
+    .theme-light .closeButton-PCZcma {
 	 color: #000;
 	  background: #C0C0C0;
 	  background-color: #C0C0C0;
@@ -1071,6 +1168,15 @@ body *::-webkit-scrollbar {
 	  border-top: 1px solid #fff;
 	  border-left: 1px solid #fff;
 }
+.theme-light .header-JHwfVI {
+	 color: #000;
+	  background: #C0C0C0;
+	  background-color: #C0C0C0;
+	  border-bottom: 1px solid #848484;
+	  border-right: 1px solid #848484;
+	  border-top: 1px solid #fff;
+	  border-left: 1px solid #fff;
+}
 .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover {
   	 color: #000;
 	  background: #C0C0C0;
@@ -1081,6 +1187,15 @@ body *::-webkit-scrollbar {
 	  border-left: 1px solid #fff;
 }
 .list-obNEuP, .inner-2pOSmK, .theme-dark .header-JHwfVI  {
+	 color: #000;
+	  background: #C0C0C0;
+	  background-color: #C0C0C0;
+	  border-bottom: 1px solid #848484;
+	  border-right: 1px solid #848484;
+	  border-top: 1px solid #fff;
+	  border-left: 1px solid #fff;
+}
+.list-obNEuP, .inner-2pOSmK, .theme-light .header-JHwfVI  {
 	 color: #000;
 	  background: #C0C0C0;
 	  background-color: #C0C0C0;
